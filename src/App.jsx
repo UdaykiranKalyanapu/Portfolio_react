@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./App.css";
-import { LoadingScreen } from "./components/UI/Pages/Loading";
-import { Navbar } from "./components/UI/Pages/Navbar";
-import { MobileMenu } from "./components//UI/Pages/MobileMenu";
-import { Home } from "./components/UI/Pages/Home";
-import { About } from "./components/UI/Pages/About";
-import { ProjectsExperience } from "./components/UI/Pages/ProjectsExperience";
+import { LoadingScreen } from "./Components/UI/Pages/Loading";
+import { Navbar } from "./Components/UI/Pages/Navbar";
+import { MobileMenu } from "./Components/UI/Pages/MobileMenu";
+import { Home } from "./Components/UI/Pages/Home";
+import { About } from "./Components/UI/Pages/About";
+import { ProjectsExperience } from "./Components/UI/Pages/ProjectsExperience";
+import { Contact } from "./Components/UI/Pages/Contact";
 import "./index.css";
+
 import { Contact } from "./Components/UI/Pages/Contact";
 
 function App() {
