@@ -9,7 +9,6 @@ import { ProjectsExperience } from "./Components/UI/Pages/ProjectsExperience";
 import { Contact } from "./Components/UI/Pages/Contact";
 import "./index.css";
 
-import { Contact } from "./Components/UI/Pages/Contact";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
