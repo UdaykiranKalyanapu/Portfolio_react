@@ -1,11 +1,11 @@
 import { RevealOnScroll } from "../Pages/RevealOnScroll";
-import Flightticket from "../../../assets/flightticket.png";
-import Cyberbullying from "../../../assets/cyberbullying.png";
+import Flightticket from "../../../assets/Flightticket.png";
+import Cyberbullying from "../../../assets/Cyberbullying.png";
 import autostereogram from "../../../assets/autostereograms.png";
 import UIpath from "../../../assets/Ui Path.png";
 import hashcat from "../../../assets/hashcat.png";
 import MachineSimulator from "../../../assets/machineSimulator.png";
-import mHub from "../../../assets/mhub.png";
+import mHub from "../../../assets/mHub.png";
 const projects = [
   {
     title: "MelodyHub - MERN Stack Music App",
