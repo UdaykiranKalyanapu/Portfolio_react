@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../Pages/RevealOnScroll";
 import { ChevronDown } from "lucide-react";
-import Gwlogo from "../../../assets/gwlogo.png";
+import Gwlogo from "../../../assets/Gwlogo.png";
 import vtulogo from "../../../assets/vtulogo.jpg";
 import cglogo from "../../../assets/cglogo.png";
 import CodtechLogo from "../../../assets/codlogo.jpg";
