@@ -23,7 +23,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
           {/* Resume Download Button */}
           <a
-            href="/SPR.pdf" // 🔁 Replace with your actual resume file path (should be in `public` folder)
+            href="/SPRDS.pdf" // 🔁 Replace with your actual resume file path (should be in `public` folder)
             download
             className="ml-auto text-sm bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-300 hidden md:block"
           >
