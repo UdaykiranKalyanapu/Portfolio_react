@@ -7,6 +7,7 @@ import Gwlogo from "../../../assets/Gwlogo.png";
 import vtulogo from "../../../assets/vtulogo.jpg";
 import cglogo from "../../../assets/cglogo.png";
 import CodtechLogo from "../../../assets/codlogo.jpg";
+import AWS from "../../../assets/AWS.png"
 
 
 export const About = () => {
@@ -126,6 +127,7 @@ export const About = () => {
       logo: AWS
     },
     {
+
       title: "GCP Associate Cloud Engineer",
       organization: "Google Cloud",
       description: "Demonstrated ability to deploy and manage Google Cloud environments.",
