@@ -120,10 +120,10 @@ export const About = () => {
 
   const certifications = [
     {
-      title: "AWS Cloud Foundations",
+      title: "AWS Solution Architect",
       organization: "Amazon Web Services",
-      description: "Validated knowledge of cloud concepts and AWS services.",
-      logo: "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+      description: "This certification validates the ability to design and deploy scalable, highly available, and cost-effective systems on AWS. It covers foundational AWS services, architecture best practices, and the use of AWS tools for building resilient cloud infrastructure.",
+      logo: AWS
     },
     {
       title: "GCP Associate Cloud Engineer",
