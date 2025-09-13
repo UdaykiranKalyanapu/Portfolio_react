@@ -156,9 +156,10 @@ export const About = () => {
 
       title: "GCP Associate Cloud Engineer",
       organization: "Google Cloud",
-      description: "Demonstrated ability to deploy and manage Google Cloud environments.",
+      description: "Certified Google Associate Cloud Engineer with proven ability to deploy, configure, and manage applications on Google Cloud Platform. Skilled in setting up virtual machines, Kubernetes clusters, networking, IAM policies, and monitoring solutions to ensure secure, scalable, and efficient cloud environments.",
       logo: "https://img.icons8.com/color/48/000000/google-cloud.png"
     },
+
     {
       title: "Selenium Automation Engineer - Practitioner level",
       organization: "Capgemini",
