@@ -72,7 +72,7 @@ export const About = () => {
 
 
     {
-      id: 1,
+      id: 5,
       logo: cglogo,
       company: "Capgemini",
       title: "Senior Software Engineer",
@@ -86,7 +86,7 @@ export const About = () => {
 • Managed and resolved 30+ Jira queries, facilitating effective collaboration and timely sprint delivery.`
     },
     {
-      id: 2,
+      id: 6,
       logo: cglogo,
       company: "Capgemini",
       title: "Automation Tester",
@@ -98,7 +98,7 @@ export const About = () => {
 • Configured Jenkins build paths and successfully executed Selenium test scripts within a CI/CD environment.`
     },
     {
-      id: 3,
+      id: 4,
       logo: Gwlogo,
       company: "George Washington University",
       title: "Student Academic Assistant II",
@@ -110,7 +110,7 @@ export const About = () => {
 • Continuously expanding my knowledge in Java development and low-level system design through hands-on experience with MIPS architecture and instruction-level programming.`
     },
     {
-      id: 4,
+      id: 3,
       logo: CodtechLogo,
       company: "Codtech IT Solutions",
       title: "Machine Learning Trainee",
@@ -123,7 +123,7 @@ export const About = () => {
     },
 
    {
-            id: 5,
+            id: 2,
             logo: ipser,
             company: "IpserLab",
             title: "Software Engineer Intern",
@@ -134,7 +134,7 @@ export const About = () => {
           },
 
    {
-            id: 6,
+            id: 1,
             logo: Gwlogo,
             company: "George Washington University",
             title: "Student Academic Assistant II",
