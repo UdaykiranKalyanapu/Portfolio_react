@@ -35,8 +35,8 @@ export const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Graduate Student | Software Developer | QA & Test Automation Enthusiast.
-          Currently pursuing a Master of Science in Computer Science at The George Washington University, Washington, DC (since January 2024). Passionate about software development, with a strong interest in quality assurance and test automation. Actively exploring emerging technologies to build reliable, scalable, and innovative solutions.
+          Graduate Student | Software Engineer | QA & Test Automation Enthusiast.
+          Currently pursuing Master of Science in Computer Science at The George Washington University, Washington, DC (since January 2024). Passionate about software development, with a strong interest in quality assurance and test automation. Actively exploring emerging technologies to build reliable, scalable, and innovative solutions.
         </motion.p>
 
         {/* Tagline paragraph */}
@@ -46,7 +46,7 @@ export const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          💻 Ex-Senior Software Engineer @Capgemini | 🎓Master's Student @GWU |
+          💻 Ex-Senior Software Engineer @Capgemini | Graduate Teaching Assistant @ The George Washington University |🎓Master's Student @GWU |
           Passionate about innovative software development and cutting-edge technologies✨.<br />
           <span className="font-extrabold">#LoveToLearn #CodeArtistry #TechEnthusiast</span>
         </motion.p>
