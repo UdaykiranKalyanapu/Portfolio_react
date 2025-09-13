@@ -8,7 +8,7 @@ import vtulogo from "../../../assets/vtulogo.jpg";
 import cglogo from "../../../assets/cglogo.png";
 import CodtechLogo from "../../../assets/codlogo.jpg";
 import AWS from "../../../assets/AWS.png"
-
+import ipser from "../../../assets/ipserLogo.jpg"
 
 export const About = () => {
   const [expandedEducation, setExpandedEducation] = useState(null);
@@ -67,6 +67,10 @@ export const About = () => {
   ];
 
   const workData = [
+
+
+
+
     {
       id: 1,
       logo: cglogo,
@@ -116,7 +120,29 @@ export const About = () => {
 • Developed a second model to predict BMI values based on user inputs using similar classifiers and data preprocessing techniques.
 • Built interactive GUI applications for both projects using Streamlit, allowing users to input data and view model predictions and performance metrics.
 • Strengthened practical knowledge in model evaluation, feature engineering, and deploying ML models with user-facing interfaces.`
-    }
+    },
+
+   {
+            id: 5,
+            logo: ipser,
+            company: "IpserLab",
+            title: "Software Engineer Intern",
+            duration: "June 2025 - Aug 2025",
+            description: `• At IpserLab, I was interning in a hybrid role as a Backend Developer and QA Engineer.
+            On the development side, I work with the Java Bandung framework to build backend entities, design RESTful APIs, and integrate server-side logic with databases.
+            Simultaneously, I contribute to quality assurance by creating and executing test cases, performing manual and automated testing, and validating feature functionality across different environments.`
+          },
+
+   {
+            id: 6,
+            logo: Gwlogo,
+            company: "George Washington University",
+            title: "Student Academic Assistant II",
+            duration: "Aug 2025 - Present",
+            description: `• As a Grader for CSCI 6461 (Computer System Architecture), I evaluate graduate student assignments, exams, and projects to ensure fairness and accuracy in assessment.
+             I review technical work related to processor design, memory hierarchy, instruction sets, and architectural principles, providing constructive feedback to support student learning.
+             I also assist in managing course projects, clarifying expectations, and addressing student questions to help them strengthen their understanding of complex computer architecture concepts.`
+          }
   ];
 
   const certifications = [
