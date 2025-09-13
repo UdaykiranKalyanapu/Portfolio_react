@@ -68,8 +68,50 @@ export const About = () => {
 
   const workData = [
 
-
-
+  {
+            id: 1,
+            logo: Gwlogo,
+            company: "George Washington University",
+            title: "Student Academic Assistant II",
+            duration: "Aug 2025 - Present",
+            description: `• As a Grader for CSCI 6461 (Computer System Architecture), I evaluate graduate student assignments, exams, and projects to ensure fairness and accuracy in assessment.
+             I review technical work related to processor design, memory hierarchy, instruction sets, and architectural principles, providing constructive feedback to support student learning.
+             I also assist in managing course projects, clarifying expectations, and addressing student questions to help them strengthen their understanding of complex computer architecture concepts.`
+          },
+{
+            id: 2,
+            logo: ipser,
+            company: "IpserLab",
+            title: "Software Engineer Intern",
+            duration: "June 2025 - Aug 2025",
+            description: `• At IpserLab, I was interning in a hybrid role as a Backend Developer and QA Engineer.
+            On the development side, I work with the Java Bandung framework to build backend entities, design RESTful APIs, and integrate server-side logic with databases.
+            Simultaneously, I contribute to quality assurance by creating and executing test cases, performing manual and automated testing, and validating feature functionality across different environments.`
+          },
+      {
+            id: 3,
+            logo: CodtechLogo,
+            company: "Codtech IT Solutions",
+            title: "Machine Learning Trainee",
+            duration: "June 2024 - July 2024",
+            description: `• Gained hands-on experience with supervised machine learning algorithms, focusing on classification tasks using real-world datasets from Kaggle.
+      • Implemented and evaluated models including Naive Bayes, Random Forest, and Logistic Regression for sentiment analysis of IMDB movie reviews.
+      • Developed a second model to predict BMI values based on user inputs using similar classifiers and data preprocessing techniques.
+      • Built interactive GUI applications for both projects using Streamlit, allowing users to input data and view model predictions and performance metrics.
+      • Strengthened practical knowledge in model evaluation, feature engineering, and deploying ML models with user-facing interfaces.`
+          },
+      {
+            id: 4,
+            logo: Gwlogo,
+            company: "George Washington University",
+            title: "Student Academic Assistant II",
+            duration: "Aug 2024 - Present",
+            description: `• Serving as a Student Academic Assistant for Course 6461 – Computer System Architecture at The George Washington University.
+      • Responsible for grading assignments and supporting students with academic queries to enhance their understanding of computer architecture concepts.
+      • Guide students through core topics such as MIPS instruction sets, memory hierarchy, and CPU design principles.
+      • Actively involved in the Machine Simulator project, assisting students in developing and debugging simulations of processor behavior.
+      • Continuously expanding my knowledge in Java development and low-level system design through hands-on experience with MIPS architecture and instruction-level programming.`
+          },
 
     {
       id: 5,
@@ -97,52 +139,12 @@ export const About = () => {
 • Designed and executed manual tests and Selenium automation scripts for a property-selling website, Magic Bricks.
 • Configured Jenkins build paths and successfully executed Selenium test scripts within a CI/CD environment.`
     },
-    {
-      id: 4,
-      logo: Gwlogo,
-      company: "George Washington University",
-      title: "Student Academic Assistant II",
-      duration: "Aug 2024 - Present",
-      description: `• Serving as a Student Academic Assistant for Course 6461 – Computer System Architecture at The George Washington University.
-• Responsible for grading assignments and supporting students with academic queries to enhance their understanding of computer architecture concepts.
-• Guide students through core topics such as MIPS instruction sets, memory hierarchy, and CPU design principles.
-• Actively involved in the Machine Simulator project, assisting students in developing and debugging simulations of processor behavior.
-• Continuously expanding my knowledge in Java development and low-level system design through hands-on experience with MIPS architecture and instruction-level programming.`
-    },
-    {
-      id: 3,
-      logo: CodtechLogo,
-      company: "Codtech IT Solutions",
-      title: "Machine Learning Trainee",
-      duration: "June 2024 - July 2024",
-      description: `• Gained hands-on experience with supervised machine learning algorithms, focusing on classification tasks using real-world datasets from Kaggle.
-• Implemented and evaluated models including Naive Bayes, Random Forest, and Logistic Regression for sentiment analysis of IMDB movie reviews.
-• Developed a second model to predict BMI values based on user inputs using similar classifiers and data preprocessing techniques.
-• Built interactive GUI applications for both projects using Streamlit, allowing users to input data and view model predictions and performance metrics.
-• Strengthened practical knowledge in model evaluation, feature engineering, and deploying ML models with user-facing interfaces.`
-    },
 
-   {
-            id: 2,
-            logo: ipser,
-            company: "IpserLab",
-            title: "Software Engineer Intern",
-            duration: "June 2025 - Aug 2025",
-            description: `• At IpserLab, I was interning in a hybrid role as a Backend Developer and QA Engineer.
-            On the development side, I work with the Java Bandung framework to build backend entities, design RESTful APIs, and integrate server-side logic with databases.
-            Simultaneously, I contribute to quality assurance by creating and executing test cases, performing manual and automated testing, and validating feature functionality across different environments.`
-          },
 
-   {
-            id: 1,
-            logo: Gwlogo,
-            company: "George Washington University",
-            title: "Student Academic Assistant II",
-            duration: "Aug 2025 - Present",
-            description: `• As a Grader for CSCI 6461 (Computer System Architecture), I evaluate graduate student assignments, exams, and projects to ensure fairness and accuracy in assessment.
-             I review technical work related to processor design, memory hierarchy, instruction sets, and architectural principles, providing constructive feedback to support student learning.
-             I also assist in managing course projects, clarifying expectations, and addressing student questions to help them strengthen their understanding of complex computer architecture concepts.`
-          }
+
+
+
+
   ];
 
   const certifications = [
