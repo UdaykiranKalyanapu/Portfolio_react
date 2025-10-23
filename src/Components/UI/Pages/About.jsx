@@ -13,26 +13,42 @@ import ipser from "../../../assets/ipserLogo.jpg"
 export const About = () => {
   const [expandedEducation, setExpandedEducation] = useState(null);
   const [expandedWork, setExpandedWork] = useState(null);
+const programmingLanguages = [
+  "Java", "Python", "Kotlin", "JavaScript", "SQL",
+  "C", "C++", "TypeScript"
+];
 
-  const programmingLanguages = ["Java", "Python", "Kotlin", "JavaScript", "SQL"];
-  const toolsAndFrameworks = [
-    "Selenium", "Cucumber", "Manual Testing", "UI Path Automation", "Selenium IDE",
-    "TestNG", "JUnit", "Karate DSL", "Rest Assured"
-  ];
-  const webDevelopment = [
-    "HTML", "CSS", "JavaScript", "React.js", "Spring Boot", "JavaFX",
-    "Node.js", "Express.js", "MongoDB"
-  ];
-  const softwareDevAndMethodologies = [
-    "BDD Frameworks", "Agile Methodologies", "DBMS", "Software Testing", "Manual Testing", "Jenkins"
-  ];
-  const machineLearningAndDataScience = [
-    "Machine Learning", "Data Structures", "Kaggle", "Google Colab"
-  ];
-  const otherToolsAndPlatforms = [
-    "Microsoft Excel", "Microsoft PowerPoint", "SharePoint", "JIRA", "Jenkins",
-    "Canvas", "Hashcat", "Password Hashing", "AWS", "GCP"
-  ];
+const toolsAndFrameworks = [
+  "Selenium", "Cucumber", "Manual Testing", "UI Path Automation", "Selenium IDE",
+  "TestNG", "JUnit", "Karate DSL", "Rest Assured",
+  "Postman", "Maven", "Jenkins", "Git", "GitHub",
+  "Extent Reports", "Quality Center (QC)", "Rally"
+];
+
+const webDevelopment = [
+  "HTML", "CSS", "JavaScript", "React.js", "Spring Boot", "JavaFX",
+  "Node.js", "Express.js", "MongoDB",
+  "Tailwind CSS", "Bootstrap", "RESTful APIs", "Microservices"
+];
+
+const softwareDevAndMethodologies = [
+  "BDD Frameworks", "Agile Methodologies", "DBMS", "Software Testing", "Manual Testing", "Jenkins",
+  "CI/CD Pipelines", "SDLC", "OOP Concepts", "Version Control (Git)", "Design Patterns"
+];
+
+const machineLearningAndDataScience = [
+  "Machine Learning", "Data Structures", "Kaggle", "Google Colab",
+  "PyTorch", "OpenCV", "NumPy", "Pandas", "Scikit-learn", "YOLO",
+  "K-Means Clustering", "CNN", "Pseudo-LiDAR", "Computer Vision"
+];
+
+const otherToolsAndPlatforms = [
+  "Microsoft Excel", "Microsoft PowerPoint", "SharePoint", "JIRA", "Jenkins",
+  "Canvas", "Hashcat", "Password Hashing", "AWS", "GCP",
+  "Azure", "Red Hat OpenShift", "Kubernetes", "Docker", "Linux",
+  "UiPath Orchestrator", "VS Code", "IntelliJ IDEA", "Eclipse"
+];
+
 
   const skillSections = [
     { title: "Programming Languages", skills: programmingLanguages },
@@ -105,7 +121,7 @@ export const About = () => {
             logo: Gwlogo,
             company: "George Washington University",
             title: "Student Academic Assistant II",
-            duration: "Aug 2024 - Present",
+            duration: "Aug 2024 - May 2025",
             description: `• Serving as a Student Academic Assistant for Course 6461 – Computer System Architecture at The George Washington University.
       • Responsible for grading assignments and supporting students with academic queries to enhance their understanding of computer architecture concepts.
       • Guide students through core topics such as MIPS instruction sets, memory hierarchy, and CPU design principles.

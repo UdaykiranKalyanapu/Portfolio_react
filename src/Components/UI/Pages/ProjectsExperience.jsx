@@ -6,7 +6,42 @@ import UIpath from "../../../assets/UI Path.png";
 import hashcat from "../../../assets/hashcat.png";
 import MachineSimulator from "../../../assets/machineSimulator.png";
 import mHub from "../../../assets/mHub.png";
+import awsbedrock from "../../../assets/knowledge_base_sync.png";
+import contoso from "../../../assets/PowerApps.png";
+import smartbudget from "../../../assets/AWSAgent.png";
+
+
 const projects = [
+    {
+        title: "Smart Budget Buddy – Responsible AI Agent on AWS",
+        role: "AI Engineer (Udacity x Accenture)",
+        duration: "Sep 2025",
+        description:
+          "Designed and configured an intelligent budget management agent using AWS Bedrock and Guardrails. Integrated Responsible AI practices, ensuring ethical agent behavior, compliance, and tone control. Successfully tested agent decision-making on financial planning tasks and edge cases, earning outstanding review feedback for excellence in AI design and governance.",
+        tech: ["AWS Bedrock", "Guardrails", "AI Ethics", "Python", "LangChain", "RAG"],
+        image: smartbudget,
+        github: "https://github.com/UdaykiranKalyanapu/AWS-BedRockAgent"
+      },
+  {
+    title: "AWS Bedrock - Intelligent Document Query System",
+    role: "Cloud Developer",
+    duration: "2025",
+    description:
+      "Developed an AI-powered document query system using AWS Bedrock and LangChain to enable natural language understanding over uploaded documents. Integrated Amazon S3 for storage and Bedrock’s foundation models to extract key insights from PDFs and text data.",
+    tech: ["AWS Bedrock", "LangChain", "S3", "Python", "Streamlit", "LLMs"],
+    image: awsbedrock,
+    github: "https://github.com/UdaykiranKalyanapu/AWS_GenAI_DocumentQuerySystem"
+  },
+  {
+    title: "Microsoft Power Apps - Contoso Parking System",
+    role: "App Developer",
+    duration: "2025",
+    description:
+      "Built a low-code Contoso Parking Management System using Microsoft Power Apps, Power Automate, and Dataverse. Automated parking slot assignments, approval workflows, and integrated a BI dashboard to visualize usage statistics and trends.",
+    tech: ["Microsoft Power Apps", "Power Automate", "Dataverse", "Power BI", "Excel"],
+    image: contoso,
+    github: "https://github.com/UdaykiranKalyanapu/PowerApps"
+  },
   {
     title: "MelodyHub - MERN Stack Music App",
     role: "Student Project",
@@ -27,8 +62,6 @@ const projects = [
     image: Cyberbullying,
     github: "https://thegrenze.com/index.php?display=page&view=journalabstract&absid=1054&id=8"
   },
-  
-
   {
     title: "Flight Ticket Booking System - Test Automation",
     role: "Automation Tester",
@@ -44,7 +77,7 @@ const projects = [
     role: "ML Developer",
     duration: "2024",
     description:
-      "Converted 2D video frames to 3D depth maps using MiDaS, generating Random Dot, Textured, and Pattern autostereograms. Also Managed depth to create effecient Atostereogram videos",
+      "Converted 2D video frames to 3D depth maps using MiDaS, generating Random Dot, Textured, and Pattern autostereograms. Also managed depth mapping to create efficient stereogram videos.",
     tech: ["Python", "OpenCV", "PyTorch", "MiDaS", "Google Colab"],
     image: autostereogram,
     github: "https://github.com/UdaykiranKalyanapu/Autostereograms"
@@ -54,8 +87,8 @@ const projects = [
     role: "Java Developer",
     duration: "2024",
     description:
-      "Simulated processor internals using JavaFX and Scene Builder. Included ALU, memory units, and instruction decoding pipeline.",
-    tech: ["Java", "JavaFX", "Scene Builder", "OOP, MIPS, Computer Architecture"],
+      "Engineered a custom 16-bit processor simulator using JavaFX and Scene Builder to visually emulate CPU instruction execution. The system featured an ALU, memory management, instruction decoding, and a front panel for real-time binary and octal display of registers and memory states.",
+    tech: ["Java", "JavaFX", "Scene Builder", "OOP", "MIPS", "Computer Architecture"],
     image: MachineSimulator,
     github: "https://github.com/UdaykiranKalyanapu"
   },
