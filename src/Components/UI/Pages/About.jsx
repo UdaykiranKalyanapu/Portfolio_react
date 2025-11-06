@@ -9,6 +9,8 @@ import cglogo from "../../../assets/cglogo.png";
 import CodtechLogo from "../../../assets/codlogo.jpg";
 import AWS from "../../../assets/AWS.png"
 import ipser from "../../../assets/ipserLogo.jpg"
+import udacity from "../../../assets/udacity.png";
+
 
 export const About = () => {
   const [expandedEducation, setExpandedEducation] = useState(null);
@@ -93,6 +95,7 @@ const otherToolsAndPlatforms = [
             description: `• As a Grader for CSCI 6461 (Computer System Architecture), I evaluate graduate student assignments, exams, and projects to ensure fairness and accuracy in assessment.
              I review technical work related to processor design, memory hierarchy, instruction sets, and architectural principles, providing constructive feedback to support student learning.
              I also assist in managing course projects, clarifying expectations, and addressing student questions to help them strengthen their understanding of complex computer architecture concepts.`
+
           },
 {
             id: 2,
@@ -164,55 +167,74 @@ const otherToolsAndPlatforms = [
   ];
 
   const certifications = [
+
+
+
     {
       title: "AWS Solution Architect",
       organization: "Amazon Web Services",
       description: "This certification validates the ability to design and deploy scalable, highly available, and cost-effective systems on AWS. It covers foundational AWS services, architecture best practices, and the use of AWS tools for building resilient cloud infrastructure.",
-      logo: AWS
+      logo: AWS,
+       link: "src/Certificates/AWS Solutions Architect - Associate.pdf"
     },
     {
 
       title: "GCP Associate Cloud Engineer",
       organization: "Google Cloud",
       description: "Certified Google Associate Cloud Engineer with proven ability to deploy, configure, and manage applications on Google Cloud Platform. Skilled in setting up virtual machines, Kubernetes clusters, networking, IAM policies, and monitoring solutions to ensure secure, scalable, and efficient cloud environments.",
-      logo: "https://img.icons8.com/color/48/000000/google-cloud.png"
+      logo: "https://img.icons8.com/color/48/000000/google-cloud.png",
+       link: "src/Certificates/AssociateCloudEngineer20250515-27-ennr94.pdf"
     },
+ {
+   title: "AWS AI/ML Engineer Nanodegree",
+   organization: "Udacity x AWS",
+   description: "A hands-on program focused on building and deploying real-world AI solutions using AWS services. It covers topics such as data engineering, machine learning workflows, and intelligent document retrieval using Amazon Bedrock, Lambda, SageMaker, and Aurora Serverless. Includes end-to-end projects involving generative AI, embeddings, and cloud deployments.",
+   logo: udacity,
+     link: "src/Certificates/AWSNDGrad.pdf"
+ },
+
 
     {
       title: "Selenium Automation Engineer - Practitioner level",
       organization: "Capgemini",
-      description: "Certified Selenium Automation Tester with hands-on experience with advanced Selenium features.",
+      description: "I earned this certification after completing advanced training in Selenium automation testing. I learned how to create test scripts using Java, TestNG, and Cucumber, run tests automatically, and generate reports. I also practiced running tests on different browsers, working with frameworks, and using tools like Jenkins to automate the testing process.",
       logo: cglogo
+
     },
     {
       title: "UIPath RPA Developer",
       organization: "UIPath Academy",
       description: "Trained in robotic process automation using UIPath.",
-      logo: "https://img.icons8.com/color/48/000000/uipath.png"
+      logo: "https://img.icons8.com/color/48/000000/uipath.png",
+      link: "src/Certificates/1728338382792.pdf"
     },
     {
       title: "Salesforce Certified AI Specialist",
       organization: "Salesforce",
       description: "Skills: Agentforce, AI, Salesforce Service Cloud, Salesforce Lightning",
-      logo: "https://img.icons8.com/color/48/000000/salesforce.png"
+      logo: "https://img.icons8.com/color/48/000000/salesforce.png",
+      link: "src/Certificates/Salesforce Agetnforce.pdf"
     },
     {
       title: "Red Hat OpenShift I: Containers and Kubernetes",
       organization: "Red Hat",
       description: "Skills: Kubernetes, Red Hat Linux, Containers",
-      logo: "https://img.icons8.com/color/48/000000/red-hat.png"
+      logo: "https://img.icons8.com/color/48/000000/red-hat.png",
+      link: "src/Certificates/RH134.pdf"
     },
     {
-      title: "Python for Data Science",
+      title: "Machine Learning with Python",
       organization: "IBM",
       description: "Completed foundational course in Python and Data Science.",
-      logo: "https://img.icons8.com/color/48/000000/ibm.png"
+      logo: "https://img.icons8.com/color/48/000000/ibm.png",
+      link: "src/Certificates/Coursera MN9ZWATVRKB7.pdf"
     },
     {
       title: "Agile Software Development",
       organization: "Capgemini",
       description: "Skills: Agile Methodologies, Project Management, Agile Testing, Agile Environment",
-      logo: cglogo
+      logo: cglogo,
+      link: "src/Certificates/Coursera 9Y3WABNMX6U5.pdf"
     }
   ];
 
@@ -298,20 +320,26 @@ const otherToolsAndPlatforms = [
         <RevealOnScroll>
           <h2 className="text-3xl font-bold mb-8 mt-12 text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">Certifications</h2>
         </RevealOnScroll>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {certifications.map((cert, index) => (
-            <RevealOnScroll key={index}>
-              <div className="rounded-xl p-6 border border-white/10 bg-white/5 hover:-translate-y-1 transition-all flex gap-4 items-center">
-                <img src={cert.logo} alt={cert.title} className="w-12 h-12 object-contain rounded-lg" />
-                <div>
-                  <h3 className="text-lg font-bold text-white">{cert.title}</h3>
-                  <p className="text-sm text-blue-400">{cert.organization}</p>
-                  <p className="text-sm text-gray-400">{cert.description}</p>
-                </div>
-              </div>
-            </RevealOnScroll>
-          ))}
-        </div>
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+         {certifications.map((cert, index) => (
+           <RevealOnScroll key={index}>
+             <a
+               href={cert.link}
+               target="_blank"
+               rel="noopener noreferrer"
+               className="rounded-xl p-6 border border-white/10 bg-white/5 hover:-translate-y-1 transition-all flex gap-4 items-center cursor-pointer"
+             >
+               <img src={cert.logo} alt={cert.title} className="w-12 h-12 object-contain rounded-lg" />
+               <div>
+                 <h3 className="text-lg font-bold text-white">{cert.title}</h3>
+                 <p className="text-sm text-blue-400">{cert.organization}</p>
+                 <p className="text-sm text-gray-400">{cert.description}</p>
+               </div>
+             </a>
+           </RevealOnScroll>
+         ))}
+       </div>
+
 
       </div>
     </section>
