@@ -48,7 +48,7 @@ const machineLearningAndDataScience = [
 
 const otherToolsAndPlatforms = [
   "Microsoft Excel", "Microsoft PowerPoint", "SharePoint", "JIRA", "Jenkins",
-  "Canvas", "Hashcat", "Password Hashing", "AWS", "Microsoft Fabric","GCP",
+  "Canvas", "Hashcat", "Password Hashing", "AWS", "GIS", "Microsoft Fabric","GCP",
   "Azure", "Red Hat OpenShift", "Kubernetes", "Docker", "Linux",
   "UiPath Orchestrator", "VS Code", "IntelliJ IDEA", "Eclipse"
 ];
